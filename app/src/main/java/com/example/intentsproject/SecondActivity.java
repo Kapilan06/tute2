@@ -59,7 +59,7 @@ public class SecondActivity extends AppCompatActivity {
         final Context context = getApplicationContext();
 
         final int duration = Toast.LENGTH_LONG;
-        final Toast toast = Toast.makeText(context,message,duration);
+        final Toast toast = Toast.makeText(context,message,duration) ;
         toast.setGravity(Gravity.TOP,0,0);
 
         add.setOnClickListener(new View.OnClickListener() {
